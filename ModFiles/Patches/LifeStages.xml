@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/LifeStageDef[defName="HumanlikeChild"]/statFactors</xpath>
+		<value>
+			<CertaintyLossFactor>3</CertaintyLossFactor>
+		</value>
+	</Operation>
+  
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/LifeStageDef[defName="HumanlikeTeenager"]/statFactors</xpath>
+		<value>
+			<CertaintyLossFactor>2</CertaintyLossFactor>
+		</value>
+	</Operation>
+</Patch>
